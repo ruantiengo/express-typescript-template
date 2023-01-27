@@ -20,7 +20,9 @@
   <span>Inspired by the awesome framework <a href="https://laravel.com/">laravel</a> in PHP and of the repositories from <a href="https://github.com/pleerock">pleerock</a></span></br>
   <sub>Made with ❤️ by <a href="https://github.com/w3tecch">w3tech</a>, <a href="https://twitter.com/GeryHirschfeld1">Gery Hirschfeld</a> and <a href="https://github.com/w3tecch/express-typescript-boilerplate/graphs/contributors">contributors</a></sub>
   </br>
-  <sub>This is a version edited by me Ruan Tiengo, thank yout guys for that awersome work</sub>
+
+  <sub>This is a version edited by me Ruan Tiengo, thank yout guys for that awersome work createros and contributors</sub>
+  </br>
   <sub><a href="https://github.com/w3tecch/express-typescript-boilerplate">original template</a></sub>
 </p>
 
@@ -55,7 +57,7 @@ Try it!! We are happy to hear your feedback or any kind of new features.
 - **TypeGraphQL** thanks to [TypeGraphQL](https://19majkel94.github.io/type-graphql/) we have a some cool decorators to simplify the usage of GraphQL.
 - **DataLoaders** helps with performance thanks to caching and batching [DataLoaders](https://github.com/facebook/dataloader).
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Table of Contents
 
@@ -73,7 +75,7 @@ Try it!! We are happy to hear your feedback or any kind of new features.
 - [Related Projects](#-related-projects)
 - [License](#-license)
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Getting Started
 
@@ -123,7 +125,7 @@ yarn start serve
 > This starts a local server using `nodemon`, which will watch for any file changes and will restart the server according to these changes.
 > The server address will be displayed to you as `http://0.0.0.0:3000`.
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Scripts and Tasks
 
@@ -166,14 +168,14 @@ All script are defined in the `package-scripts.js` file, but the most important 
 
 - Run `yarn start db.seed` to seed your seeds into the database.
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Debugger in VSCode
 
 To debug your code run `yarn start build` or hit <kbd>cmd</kbd> + <kbd>b</kbd> to build your app.
 Then, just set a breakpoint and hit <kbd>F5</kbd> in your Visual Studio Code.
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ API Routes
 
@@ -229,7 +231,7 @@ The swagger and the monitor route can be altered in the `.env` file.
 | .env.test                         | Test environment configurations |
 | mydb.sql                          | SQLite database for integration tests. Ignored by git and only available after integration tests |
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Logging
 
@@ -274,7 +276,7 @@ export class UserService {
     }
 ```
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Seeding
 
@@ -389,7 +391,7 @@ yarn start db.seed
 | `yarn start "db.seed --factories <path>"`            | Add a different path to your factories (Default: `src/database/`) |
 | `yarn start "db.seed --seeds <path>"`                | Add a different path to your seeds (Default: `src/database/seeds/`) |
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ GraphQL
 
@@ -519,7 +521,7 @@ DB_HOST=localhost
 DB_PORT=3306
 ```
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Further Documentations
 
@@ -543,7 +545,7 @@ DB_PORT=3306
 | [GraphQL Documentation](http://graphql.org/graphql-js/) | A query language for your API. |
 | [DataLoader Documentation](https://github.com/facebook/dataloader) | DataLoader is a generic utility to be used as part of your application's data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching. |
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Related Projects
 
@@ -552,7 +554,7 @@ DB_PORT=3306
 - [aurelia-typescript-boilerplate](https://github.com/w3tecch/aurelia-typescript-boilerplate) - An Aurelia starter kit with TypeScript
 - [Auth0 Mock Server](https://github.com/hirsch88/auth0-mock-server) - Useful for e2e testing or faking an oAuth server
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ License
 
