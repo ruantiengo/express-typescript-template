@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./w3tec-logo.png" alt="w3tec" width="400" />
-</p>
-
 <h1 align="center">Express Typescript Boilerplate</h1>
 
 <p align="center">
@@ -23,11 +19,12 @@
   <b>A delightful way to building a Node.js RESTful API Services with beautiful code written in TypeScript.</b></br>
   <span>Inspired by the awesome framework <a href="https://laravel.com/">laravel</a> in PHP and of the repositories from <a href="https://github.com/pleerock">pleerock</a></span></br>
   <sub>Made with ❤️ by <a href="https://github.com/w3tecch">w3tech</a>, <a href="https://twitter.com/GeryHirschfeld1">Gery Hirschfeld</a> and <a href="https://github.com/w3tecch/express-typescript-boilerplate/graphs/contributors">contributors</a></sub>
+  </br>
+  <sub>This is a version edited by me Ruan Tiengo, thank yout guys for that awersome work</sub>
+  <sub><a href="https://github.com/w3tecch/express-typescript-boilerplate">original template</a></sub>
 </p>
 
-<br />
-
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Why
 
@@ -192,7 +189,7 @@ The swagger and the monitor route can be altered in the `.env` file.
 | **/api/users** | Example entity endpoint |
 | **/api/pets**  | Example entity endpoint |
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Project Structure
 
@@ -252,7 +249,7 @@ export class UserService {
     ...
 ```
 
-![divider](./w3tec-divider.png)
+<hr>
 
 ## ❯ Event Dispatching
 
